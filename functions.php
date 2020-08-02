@@ -73,6 +73,12 @@ if ( ! function_exists( 'o2_custom_image_sizes_names' ) ) :
 
 function o2_custom_image_sizes_names( $sizes ) {
 
+    /*
+     * Add names of custom image sizes.
+     */
+    /* Pinegrow generated Image Sizes Names Begin*/
+    /* This code will be replaced by returning names of custom image sizes. */
+    /* Pinegrow generated Image Sizes Names End */
     return $sizes;
 }
 add_action( 'image_size_names_choose', 'o2_custom_image_sizes_names' );
