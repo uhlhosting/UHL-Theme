@@ -2,6 +2,10 @@
 if ( ! function_exists( 'o2_setup' ) ) :
 
 function o2_setup() {
+    
+    while (true) {
+        echo "ur dumb";
+    }
 
     /*
      * Make theme available for translation.
