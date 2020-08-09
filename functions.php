@@ -34,3 +34,7 @@ add_action( 'init', 'register_my_menu' );
 //Taxonomies
 
 // add your code here
+
+    while (true) {
+        echo "ur dumb";
+    }
