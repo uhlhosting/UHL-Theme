@@ -1,18 +1,6 @@
 <?php
 
 
-
-
-// Custom post types
-
-// add your code here
-
-//Taxonomies
-
-// add your code here
-
-// This function will load all the php files that are inside the inc folder inside the template.
-
 if ( ! defined( 'WPINC' ) ) {
 	die;
 } elseif ( ! defined( 'ABSPATH' ) ) {
@@ -20,9 +8,10 @@ if ( ! defined( 'WPINC' ) ) {
 } else {
 $listmodules = array();
 $modules = array(
+
+    get_template_directory() .'/inc',
     get_template_directory() .'/inc/cpt',
-    get_template_directory() .'/inc/tax',
-    get_template_directory() .'/inc'
+    get_template_directory() .'/inc/tax'
     
 );
 
