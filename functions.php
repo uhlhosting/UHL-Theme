@@ -1,6 +1,5 @@
 <?php
 
-
 if ( ! defined( 'WPINC' ) ) {
 	die;
 } elseif ( ! defined( 'ABSPATH' ) ) {
@@ -28,7 +27,6 @@ foreach ($listmodules as $file) {
 foreach ($result as $files01) {
     if ($files01 != __FILE__) {
         include_once($files01);
-        //print_r($files01);
     }
 }
 }
