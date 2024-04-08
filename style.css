@@ -1,11 +1,29 @@
 /*
-Theme Name: ZherO² Theme
-Theme URI: http://ndawebs.com/
-Author: Martin Oviedo
-Author URI: http://ndawebs.com/
-Description: It is a theme for Oxygen Builder, you don't really need one but for aesthetic purposes you can use this theme and also it is super light it has the minimum to be a wordpress theme. I will be updating it often with some functions that improve the use of Oxygen Builder.
-Version: 1.0.1 - Thank you collaborate with the new name to Sten Wichmann
+Theme Name: O² Bare Minimum Theme
+Theme URI: https://uhlhosting.ch
+Author: Viorel-Cosmin Miron
+Author URI: http://uhlhosting.ch
+Description: I use this theme when Im working with Oxygen. Does not need updates and there is a message when something is wrong with Oxygen Builder and Oxygen builder  is not active
+Version: 2.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: o2
+Tags: developer, oxygen builder
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
 */
+
+body {
+    background-color: #1b1d27;
+    color: var(--dark);
+    text-align: center;
+    font-size: 1.5rem;
+    font-size: clamp(1.5rem, 1.3rem + 1vw, 2.5rem);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+}
